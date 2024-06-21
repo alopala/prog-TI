@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrello della Spesa</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Agrega el script de Stripe.js -->
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body class="cartPage"> 
+    <!-- Encabezado -->
+    <header>
+        <!-- Título centrado -->
+        <h1 class="pageTitle">Carrello della Spesa</h1>
+    </header>        
+    <!-- Carrello della Spesa -->
+    <div id="cart">
+        <p>Quantità di biglietti Ingresso Generale: <span id="countGeneral">0</span></p>
+        <p>Quantità di biglietti Ingresso VIP: <span id="countVIP">0</span></p>
+    </div>
+
+    <!-- Gastos de gestión -->
+    <div id="processingFee">
+        <p>Gastos de gestión: 6,5€/biglietti</p>
+    </div>
+
+    <!-- Total -->
+    <div id="total">
+        <p class="totalLine">Total: <span id="totalAmount">0</span></p>
+    </div>
+
+    <!-- Botón Pagar -->
+    <button class="payButton" onclick="showPaymentConfirmation()">Pagar</button>
+
+    <!-- Función para mostrar la confirmación de pago -->
+    <script>
+        function showPaymentConfirmation() {
+            var confirmation = confirm('¿Deseas confirmar el pago?');
+            if (confirmation) {
+                alert('Pago realizado');
+                window.location.href = 'index.html'; // Redirige a la página de inicio
+            }
+        }
+    </script>
+
+    <!-- Botón Torna ai Biglietti -->
+    <a href="tickets.html" class="ticketButton">Torna ai Biglietti</a>
+
+    <!-- Botón Vai alla Homepage -->
+    <a href="index.html" class="ticketButton">Vai alla Homepage</a>
+
+    <!-- Enlazar el archivo JavaScript específico para la página del carrello -->
+    <script src="cart.js"></script>
+</body>
+</html>

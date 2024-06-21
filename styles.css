@@ -1,0 +1,211 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: "century gothic", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* Estilos para el encabezado */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center; /* Centrar el texto */
+}
+
+
+/* Estilos para el botón "C O N C E R T O" */
+#goToHome {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px 40px;
+    background-color: #6f36f4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el botón "Biglietti" */
+#goToTickets {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 40px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: "century gothic", Helvetica;
+    text-decoration: none;
+    display: block; /* Convertir en bloque para aplicar márgenes */
+    margin: 50px auto; /* Margen superior e inferior de 50px y centrar horizontalmente */
+    text-align: center; /* Centrar el texto dentro del botón */
+}
+
+/* Estilos para el botón Vai al Carrello */
+#goToCart {
+    position: fixed;
+    top: 200px;
+    right: 20px;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Estilos para los tickets */
+.ticket {
+    display: flex;
+    align-items: center;
+}
+
+.ticket p {
+    margin-right: 10px;
+}
+
+.ticket-count {
+    margin: 0 10px; /* Añadido para espacio entre los botones */
+}*/
+
+
+/* Estilos específicos para la página del carrito */
+body.carrello {
+    font-family: "century gothic", sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.button {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 40px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: "century gothic", Helvetica;
+    text-decoration: none;
+    display: block; /* Convertir en bloque para aplicar márgenes */
+    margin: 50px auto; /* Margen superior e inferior de 50px y centrar horizontalmente */
+    text-align: center; /* Centrar el texto dentro del botón */
+}
+
+.button:hover {
+    background-color: #ff8533; /* Cambiar color de fondo al pasar el mouse */
+}
+
+
+
+#goToTickets:hover {
+    background-color: #ff8533; /* Cambiar color de fondo al pasar el mouse */
+}
+
+.pageTitle {
+    text-align: center; /* Centrar el texto horizontalmente */
+}
+
+.cartPage {
+    background-color: #fff; /* Establecer el color de fondo blanco */
+    color: #000; /* Establecer el color del texto en negro */
+}
+
+.totalLine {
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+    font-size: 1.2em; /* Ajustar el tamaño del texto */
+    font-weight: bold; /* Hacer el texto en negrita */
+}
+
+.payButton {
+    /* Estilos para los botones */
+    background-color: #ff9900; /* Color de fondo gris */
+    color: #333; /* Color de texto gris oscuro */
+    font-size: 1.5em; /* Tamaño de fuente normal */
+    padding: 8px 15px; /* Espacio interno del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    display: block; /* Hacer que los botones sean bloques para que ocupen toda la línea */
+    width: 150px; /* Ancho fijo para los botones */
+    text-align: center; /* Centrar el texto dentro del botón */
+    margin: 10px auto; /* Margen automático para centrar los botones horizontalmente */
+    font-weight: bold; /* Hacer el texto en negrita */
+
+}
+
+.ticketButton {
+    /* Estilos para los botones */
+    background-color: #ccc; /* Color de fondo gris */
+    color: #333; /* Color de texto gris oscuro */
+    font-size: 1em; /* Tamaño de fuente normal */
+    padding: 8px 15px; /* Espacio interno del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    display: block; /* Hacer que los botones sean bloques para que ocupen toda la línea */
+    width: 150px; /* Ancho fijo para los botones */
+    text-align: center; /* Centrar el texto dentro del botón */
+    margin: 10px auto; /* Margen automático para centrar los botones horizontalmente */
+    text-decoration: none; /* Quitar el subrayado */
+
+}
+
+
+/* Fondo de pantalla para la página de inicio */
+body.indexPage {
+    background-image: url('homepage.jpg');
+    background-size: cover; /* Ajustar la imagen al tamaño de la ventana del navegador */
+    background-position: center; /* Centrar la imagen */
+}
+
+/* Fondo de pantalla para la página de los billetes */
+body.ticketPage {
+    background-image: url('homepage.jpg');
+    background-size: cover; /* Ajustar la imagen al tamaño de la ventana del navegador */
+    background-position: center; /* Centrar la imagen */
+}
+
+
+/* Estilos específicos para la página de ayuda */
+body.helpPage {
+    font-family: "century gothic", sans-serif;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+/* Estilos para las respuestas de las preguntas */
+#faq article {
+    margin-bottom: 20px;
+}
+
+#faq article p {
+    text-align: left; /* Alineación a la izquierda */
+    margin-top: 5px; /* Espacio superior */
+}
+
+#contact {
+    text-align: center; /* Centrar el contenido */
+    margin-top: 50px; /* Espacio superior */
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina dei Biglietti</title>
+    <!-- Enlazar el archivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="menu-styles" href="menu-styles.css">
+</head>
+<body class="ticketPage">
+
+    <!-- Encabezado -->
+    <header>
+        <!-- Botón "C O N C E R T O" -->
+        <button id="goToHome">C O N C E R T O</button>
+        <h1>Acquista i Biglietti</h1>
+    </header>    
+
+ 
+
+    <!-- Biglietti -->
+    <div id="tickets">
+        <h2>Tipo di Biglietto</h2>
+        <div class="ticket" data-ticket-type="General">
+            <p>Ingresso Generale - €30</p>
+            <!-- Botón de "-" para quitar entradas -->
+            <button class="btnRemove">-</button>
+            <!-- Contador de entradas generales -->
+            <span id="summaryGeneral">0</span>
+            <!-- Botón de "+" para agregar entradas -->
+            <button class="btnAdd">+</button>
+        </div>
+        <div class="ticket" data-ticket-type="VIP">
+            <p>Ingresso VIP - €50</p>
+            <!-- Botón de "-" para quitar entradas -->
+            <button class="btnRemove">-</button>
+            <!-- Contador de entradas VIP -->
+            <span id="summaryVIP">0</span>
+            <!-- Botón de "+" para agregar entradas -->
+            <button class="btnAdd">+</button>
+        </div>
+    </div>
+    
+
+    <!-- Botón para limpiar selezione -->
+    <button id="clearSelection">Pulisci Selezione</button>    
+
+   <!-- Botón Vai al Carrello -->
+   <a href="carrello.html" id="goToCart">Vai al Carrello</a>
+
+    <!-- Enlazar el archivo JavaScript específico para la página dei biglietti -->
+    <script src="ticket.js"></script>
+</body>
+</html>

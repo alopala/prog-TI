@@ -1,0 +1,69 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: "century gothic", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* Estilos para el encabezado */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center; /* Centrar el texto */
+}
+
+/* Estilos específicos para la página de ayuda (support.html) */
+.helpPage {
+    padding: 20px;
+}
+
+.helpPage h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #6f36f4; /* Color morado para el título */
+}
+
+.support-page .question {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff; /* Color blanco para las preguntas */
+}
+
+.helpPage .answer {
+    text-align: left; /* Alinear respuestas a la izquierda */
+    line-height: 1.6; /* Espaciado entre líneas del párrafo */
+    margin-bottom: 20px;
+}
+
+/* Estilos para los botones */
+.button {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 40px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: "century gothic", Helvetica;
+    text-decoration: none;
+    display: block; /* Convertir en bloque para aplicar márgenes */
+    margin: 50px auto; /* Margen superior e inferior de 50px y centrar horizontalmente */
+    text-align: center; /* Centrar el texto dentro del botón */
+}
+
+.button:hover {
+    background-color: #ff8533; /* Cambiar color de fondo al pasar el mouse */
+}
+
+/* Fondo de pantalla para la página de inicio */
+body.indexPage {
+    background-image: url('homepage.jpg');
+    background-size: cover; /* Ajustar la imagen al tamaño de la ventana del navegador */
+    background-position: center; /* Centrar la imagen */
+}

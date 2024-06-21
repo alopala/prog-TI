@@ -1,3 +1,4 @@
+// HOMEPAGE
 document.addEventListener("DOMContentLoaded", function() {
     // Obtener el botón del menú y el contenido del menú desplegable
     var menuButton = document.getElementById("menuButton");
